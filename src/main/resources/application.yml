@@ -17,8 +17,7 @@ spring:
       client:
         registration:
           google:
-            client-id:
-            client-secret:
+
             scope: profile, email
             redirect-uri: "http://localhost:60244/auth/login/oauth2/code/google"
         provider:
