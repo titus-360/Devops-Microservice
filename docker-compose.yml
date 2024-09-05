@@ -22,7 +22,7 @@ services:
       - "9092:9092"
 
   db:
-    image: postgres:15
+    image: postgres:15-alpine
     environment:
       POSTGRES_DB: visitoron
       POSTGRES_USER: postgres
